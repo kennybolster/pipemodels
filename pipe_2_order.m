@@ -24,7 +24,7 @@ for i=1:n
     plot(1:nboxes, initdistro);
     xlabel('Distance');
     ylabel('Concentration');
-%     ylim([0 15]);
+    ylim([0 15]);
     pause(.1)
 end
 
